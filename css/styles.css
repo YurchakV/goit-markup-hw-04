@@ -94,6 +94,7 @@ img {
 
 .header-nav-list-item {
   margin-right: 40px;
+  position: relative;
 }
 
 .header-nav-list-item:last-child {
@@ -134,6 +135,7 @@ img {
   display: block;
   padding-top: 24px;
   padding-bottom: 24px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-nav-link:focus {
@@ -154,6 +156,9 @@ img {
   height: 4px;
   border-radius: 2px;
   background-color: #404bbf;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
 }
 
 .header-address {
@@ -490,6 +495,7 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
+  margin-right: 120px;
 }
 
 .footer-logo {
